@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## It's a web App build on top of ChatGPT
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
