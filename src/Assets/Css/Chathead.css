@@ -1,0 +1,37 @@
+.wrapper{
+     display: flex;
+     align-items: flex-start;
+     min-width: 75rem;
+}
+.chat{ 
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: center;
+     align-items: center;
+}
+
+.ai { 
+     background-color: rgb(53, 53, 53);
+     padding: 1rem;
+     margin: 1rem auto;
+     border-radius: 10px;
+}
+.profile{ 
+     margin: 10px;
+     padding: 1rem auto;
+     align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper{
+     min-width: 45rem;
+}
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .wrapper{
+     min-width: 340px;
+}
+}
+
